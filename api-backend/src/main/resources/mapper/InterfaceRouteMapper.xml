@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhu.project.mapper.InterfaceRouteMapper">
+
+    <select id="listInterfaceRoute" resultMap="routeData">
+        select * from interface_route
+            where status = 1
+                <if test="id!=null">
+                    and parentId = #{id}
+                </if>
+                <if test="id==null">
+                    and parentId is null
+                </if>
+            order by orderNum
+    </select>
+    
+<!--    <select id="listRouteChildren" resultType="ArrayList">-->
+<!--        select * from interface_route-->
+<!--            where status = 1 and parentId = #{id}-->
+<!--    </select>-->
+
+    <resultMap id="routeData" type="com.zhu.project.model.vo.InterfaceRouteVo">
+        <result column="id" property="id" />
+        <collection property="children" ofType="ArrayList" column="id" select="listInterfaceRoute" />
+    </resultMap>
+
+</mapper>

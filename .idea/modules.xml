@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/api-client-sdk/api-client-sdk.iml" filepath="$PROJECT_DIR$/api-client-sdk/api-client-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-common/api-common.iml" filepath="$PROJECT_DIR$/api-common/api-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/api-gateway/api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-interface/api-interface.iml" filepath="$PROJECT_DIR$/api-interface/api-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-api.iml" filepath="$PROJECT_DIR$/springboot-api.iml" />
+    </modules>
+  </component>
+</project>

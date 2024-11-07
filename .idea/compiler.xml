@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-api" />
+        <module name="api-common" />
+        <module name="api-interface" />
+        <module name="api-gateway" />
+        <module name="api-client-sdk" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-client-sdk" target="1.8" />
+      <module name="api-common" target="1.8" />
+      <module name="api-gateway" target="1.8" />
+      <module name="api-interface" target="1.8" />
+      <module name="springboot-api" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-client-sdk" options="-parameters" />
+      <module name="api-common" options="-parameters" />
+      <module name="api-gateway" options="-parameters" />
+      <module name="api-interface" options="-parameters" />
+      <module name="springboot-api" options="-parameters" />
+    </option>
+  </component>
+</project>

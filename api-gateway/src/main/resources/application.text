@@ -1,0 +1,32 @@
+server:
+  port: 8090
+spring:
+  cloud:
+    gateway:
+      routes: #网关路由配置
+        - id: api-interface #路由id，自定义，但是要保证唯一
+          #url: http://127.0.0.1:8082 路由的目标地址
+          uri: http://localhost:8123 #路由的目标地址就是lb负载均衡，通过服务名来进行查找，去nacos服务注册中心查找
+          predicates:
+            - Path=/api/**
+      globalcors: #全局的跨域处理
+        add-to-simple-url-handler-mapping: true #解决option请求被拦截问题
+        cors-configurations:
+          '[/**]':
+            allowedOrigins:
+              - "http://localhost:8081" #允许哪些网站的跨域请求
+            allowedMethods:
+              - "GET"
+              - "POST"
+              - "DELETE"
+              - "PUT"
+              - "OPTIONS"
+            allowedHeaders: "*" #允许在请求中携带头部信息
+            allowCredentials: true
+            maxAge: 36000
+dubbo:
+  application:
+    name: dubbo-customer
+  registry:
+    id: nacos-registry
+    address: nacos://127.0.0.1:8848

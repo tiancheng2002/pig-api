@@ -1,0 +1,23 @@
+server:
+  port: 8123
+  servlet:
+    context-path: /api
+zhuapi:
+  client:
+    access-key: 6b1e536bbf03e0c699f6430ad3077a95
+    secret-key: f32869e99695e5b78e1af8f415297bbb
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/zhuapi
+    username: root
+    password: 12345678
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+xunfei:
+  client:
+    appid: cf66c193
+    apiSecret: ZDk1OTI0YTZiMjA4MmRjZTc4ZGE1MWFm
+    apiKey: 531a6a7676717059d3dbbafe5df08d09

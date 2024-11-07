@@ -1,0 +1,60 @@
+spring:
+  application:
+    name: yuapi-backend
+  # DataSource Config
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/zhuapi
+    username: root
+    password: 12345678
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
+  # session 失效时间（分钟）
+  session:
+    timeout: 86400
+    store-type: redis
+  # redis 配置
+  redis:
+    port: 6379
+    host: localhost
+    database: 0
+server:
+  port: 7529
+  servlet:
+    context-path: /api
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      logic-delete-field: isDelete # 全局逻辑删除的实体字段名(since 3.3.0,配置后可以忽略不配置步骤2)
+      logic-delete-value: 1 # 逻辑已删除值(默认为 1)
+      logic-not-delete-value: 0 # 逻辑未删除值(默认为 0)
+# nacos需要2.x版本的
+dubbo:
+  application:
+    name: dubbo-provider
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    id: nacos-registry
+    address: nacos://127.0.0.1:8848
+zhuapi:
+  client:
+    access-key: zhu
+    secret-key: abcdefgh
+alipay:
+  app-id: 2021004135684298
+  private-key: MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCcA5laVOIHK9qBGci6/O7EWY0Mqbgauag1SuTc/dJ9vshZZj9nAiHf3kKPmJx5zUacAJuxijrChZNisuf2lWeSCCujdeecqm4MIpC7elibnC+jR9pAgP3YAqfWvog7yK5OqBUgUn0rR8GUw1iCfhBx7VKXQOS39/DnVab+guLOBLWdDgrJ4i3HJpt08Glc+izepz4wFJosuhdHav3B4pABnZFECy3BdmDSK2hs8LvmWrjnbo94CGZaxWEqOo4YXxwATfQ1wrxsVE4cjWnDd3kdl3EOQyHh5ng2WIx8GylWLC6p+RpnfEYSqrCNjiaYCch9hanzVHNmsFuJiOUyKrkrAgMBAAECggEAWu4KEkkI1+8qUjZp9Pn4W75p5CiDIih1LmJxU5Aof5uTf++FIo9umOEc4D6tbJxE/CWqmOac6sUZqtvlMKXRkJ5seL/+dyQqMa5vtqVPQZrddQgq34+O47hghFvWYSnM1hFHBuitBW20GPVl/+Bjy1Lr4TY0WDkNUndsdkho0nOpF0xupLhhbJWJcjvehcyGu/mlSBtOI9Eza6TRqxTJjKa1hz1xIDmBGRZcOFoY+KWuRsBEIYW8Jn9W9G8FRjpbtcECWtVwYfKv7RF3uTYWRN6A2QZFe6ChhS7rQ+dZQs3TUZF5VXrzLyfbVpC7H/aq3jyPJfeKUINc60vJnLqrSQKBgQDPyw4PEmpgaHH2UkmIwFPbgWRtD4woddl3D7R93lXuQFfEJBiV9RiW99lE5bS/fl+1zAYZcop/7Nw/M19TvU/kWyAkVZae9J58Qagn+HfYqxWPB+f9K+q40ydlROKnbUTST8ah2JQRGmjbvpMphuvpzYIvQMg70FyjNaR7A30ZHQKBgQDANVriWtu1nHqohzVAbWSSyWxxIL5XPzj9zNAWCV94CcYy5zbuigEyZRWvDfAJHyvYGMitV4vlcwOu8A3MF1Scfa29rIAjSgWFnRfFqKvyphhMytqglh7wd9oEJsou4hgGG2uFE/tj+/hHdxT7OdAuJ6uC/bor6Wv6jaxJCzBQ5wKBgHRj85MDqKwptLPZcbD0scQBHSRtkf9Ty6SCGoJqWE2kosSNx2uvpr9hQsTxuaWNfsTQ7BWy79sp7FBGUT4Riz+Iv186xaxxrphBGpSQ+2hUpDXCovJPeCFgvO9ff2lyrhrzbnpXWtCdr2BuxfV7yobiguo+6il+03Tj5ia1VIwNAoGAegmmce/0bkQzUQvAEO8kG1sOommC0QyQV/0R5dv/pMy37hwGMcCn7+JkuSglTvVeti9OQ1lBtuam4Q0EBaCOlWnqxXJgTYezJ9nNfS+SNVemOCPYWnvWmyHN6DLkzo25aS9BvlYomJwkUOPYC4bymkuPx3ToHvdvGr+XMy2KeOMCgYBRJ+A/NP0e5Jhcq2YN2F/IwnPGcVkYg1j877Hnj5ZK5srcef+Z0T/DMm/Y4clHmWiQXbmR5GofLOPvmZ3Nk/+YIn3JtNt/yzIfUrdKR864yll0XkKhjmdg7nuFmVP3HrMwnXx2Udh10lKvNOjyXRrkXrPARvJBe8lgClYmujJ2tw==
+  alipay-public-key: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnl02DUhGP0A9EMWM1RcyuDErs3SdBkO0rWSw29UYnD6Kxwy7J8HsxZx/EgJMO7nO+uh5nJft6CKZN1DYUr7rgUdftNTp/zePL8lceXdAFq9CYuctxi9IwbH9puCdwSN4DYbW7QGDEHkphbQ5IjIRw6+mQ6UFIUiFFYCceQ4dTiq5RFM+KhnCi4s6a8R1VD1fwFiXb5JyLgVvc6SYy3JDSvXmlidMply5OM4/Z1uVWXH4+oAhY7rlCiGFbbBepLT31TYQwSlGHpPALtF/zh8/6xDcdLEZscvWwC2hRdLijDRiGlTfaqXtmhEO0tkyZEOmRnz9V53P0wnivVKID5VtzQIDAQAB
+  server-url: https://openapi.alipay.com/gateway.do
+  charset: utf-8
+  sign-type: RSA2
+  notify-url: http://fbz7fm.natappfree.cc/api/alipay/notify
+  return-url: http://your_domain/alipay/notify #完成支付后的同步跳转地址

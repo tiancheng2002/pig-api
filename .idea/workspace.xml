@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="48553458-9d30-4aa2-a0ac-961b4346637e" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="springboot-api" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Downloder\apache-maven-3.8.2\maven-repo" />
+        <option name="mavenHome" value="D:\Downloder\apache-maven-3.8.2" />
+        <option name="userSettingsFile" value="D:\Downloder\apache-maven-3.8.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2WUAvroCAkUeXmstY7Qv98DGh7j" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.zhu" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zhu.spark" />
+      <recent name="com.zhu.utils" />
+      <recent name="com.zhu.config" />
+      <recent name="com.zhu.modal.entity" />
+      <recent name="com.zhu.exception" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\新建文件夹\Project\springboot-api\api-interface\src\main\java\com\zhu\spark" />
+      <recent name="D:\新建文件夹\Project\springboot-api\api-interface\src\main\java\com\zhu" />
+      <recent name="D:\新建文件夹\Project\springboot-api\api-common\src\main\java\com\zhu\model\vo" />
+      <recent name="D:\新建文件夹\Project\springboot-api\api-interface\src\main\resources\mapper" />
+      <recent name="D:\新建文件夹\Project\springboot-api\api-interface" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ApiInterfaceApplication">
+    <configuration name="ApiInterfaceApplicationTests.convertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-interface" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhu" />
+      <option name="MAIN_CLASS_NAME" value="com.zhu.ApiInterfaceApplicationTests" />
+      <option name="METHOD_NAME" value="convertTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiInterfaceApplicationTests.ipTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-interface" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhu" />
+      <option name="MAIN_CLASS_NAME" value="com.zhu.ApiInterfaceApplicationTests" />
+      <option name="METHOD_NAME" value="ipTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiInterfaceApplicationTests.random" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-interface" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhu" />
+      <option name="MAIN_CLASS_NAME" value="com.zhu.ApiInterfaceApplicationTests" />
+      <option name="METHOD_NAME" value="random" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiInterfaceApplicationTests.testProvince" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-interface" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhu" />
+      <option name="MAIN_CLASS_NAME" value="com.zhu.ApiInterfaceApplicationTests" />
+      <option name="METHOD_NAME" value="testProvince" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhu.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiInterfaceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="api-interface" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhu.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhu.ApiInterfaceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ApiInterfaceApplicationTests.testProvince" />
+      <item itemvalue="JUnit.ApiInterfaceApplicationTests.ipTest" />
+      <item itemvalue="JUnit.ApiInterfaceApplicationTests.convertTest" />
+      <item itemvalue="JUnit.ApiInterfaceApplicationTests.random" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
+      <item itemvalue="Spring Boot.ApiInterfaceApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ApiInterfaceApplication" />
+        <item itemvalue="JUnit.ApiInterfaceApplicationTests.random" />
+        <item itemvalue="JUnit.ApiInterfaceApplicationTests.convertTest" />
+        <item itemvalue="JUnit.ApiInterfaceApplicationTests.ipTest" />
+        <item itemvalue="JUnit.ApiInterfaceApplicationTests.testProvince" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48553458-9d30-4aa2-a0ac-961b4346637e" name="Default Changelist" comment="" />
+      <created>1696777018571</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696777018571</updated>
+      <workItem from="1696777021775" duration="16343000" />
+      <workItem from="1697520089737" duration="13257000" />
+      <workItem from="1698219998712" duration="610000" />
+      <workItem from="1698832447357" duration="24000" />
+      <workItem from="1703210509754" duration="1380000" />
+      <workItem from="1703830513972" duration="5942000" />
+      <workItem from="1705379853353" duration="32000" />
+      <workItem from="1708177465032" duration="10831000" />
+      <workItem from="1708402268104" duration="18177000" />
+      <workItem from="1709011887802" duration="2581000" />
+      <workItem from="1709475159102" duration="16489000" />
+      <workItem from="1710069933276" duration="9866000" />
+      <workItem from="1710859086913" duration="546000" />
+      <workItem from="1710860484399" duration="408000" />
+      <workItem from="1710901469973" duration="1000" />
+      <workItem from="1711366485277" duration="30734000" />
+      <workItem from="1712400423561" duration="19919000" />
+      <workItem from="1712884339472" duration="8475000" />
+      <workItem from="1713359210659" duration="1216000" />
+      <workItem from="1713763145414" duration="608000" />
+      <workItem from="1714973949485" duration="13078000" />
+      <workItem from="1715742774769" duration="2962000" />
+      <workItem from="1715913057716" duration="716000" />
+      <workItem from="1716182087730" duration="616000" />
+      <workItem from="1716264880854" duration="653000" />
+      <workItem from="1716290666249" duration="1216000" />
+      <workItem from="1716861701156" duration="7564000" />
+      <workItem from="1718353468973" duration="593000" />
+      <workItem from="1718711121936" duration="4794000" />
+      <workItem from="1719240519025" duration="2264000" />
+      <workItem from="1719486362158" duration="56000" />
+      <workItem from="1719486473971" duration="69000" />
+      <workItem from="1719486743160" duration="8126000" />
+      <workItem from="1720509501899" duration="4507000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api-interface/src/main/java/com/zhu/controller/NameController.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

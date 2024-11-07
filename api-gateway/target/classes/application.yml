@@ -1,0 +1,37 @@
+server:
+  port: 8090
+spring:
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8091
+    gateway:
+      routes:
+        - id: api-interface
+          uri: http://localhost:8123
+          predicates:
+            - Path=/api/**
+      globalcors:
+        add-to-simple-url-handler-mapping: true
+        cors-configurations:
+          '[/**]':
+            allowedOrigins:
+              - "http://localhost:8081"
+            allowedMethods:
+              - "GET"
+              - "POST"
+              - "DELETE"
+              - "PUT"
+              - "OPTIONS"
+            allowedHeaders: "*"
+            allowCredentials: true
+            maxAge: 36000
+dubbo:
+  application:
+    name: dubbo-customer
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    id: nacos-registry
+    address: nacos://127.0.0.1:8848

@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "zhuapi.client",
+      "type": "com.zhu.config.ApiClientConfig",
+      "sourceType": "com.zhu.config.ApiClientConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "zhuapi.client.access-key",
+      "type": "java.lang.String",
+      "sourceType": "com.zhu.config.ApiClientConfig"
+    },
+    {
+      "name": "zhuapi.client.secret-key",
+      "type": "java.lang.String",
+      "sourceType": "com.zhu.config.ApiClientConfig"
+    }
+  ],
+  "hints": []
+}
